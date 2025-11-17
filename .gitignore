@@ -1,0 +1,85 @@
+# Existing rules from project
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Additional useful rules
+
+# Gradle
+gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ/Android Studio
+.idea/
+*.iws
+*.ipr
+.android/
+
+# Build artifacts
+bin/
+gen/
+out/
+*.apk
+*.ap_
+*.dex
+*.class
+*.aar
+
+# Signing configs
+*.keystore
+*.jks
+
+# Misc
+*.bak
+*.swp
+*~
+.project
+.pydevproject
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS
+Thumbs.db
+
+# Kotlin
+.kotlin/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Android Profiler
+*.trace
